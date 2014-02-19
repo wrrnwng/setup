@@ -21,6 +21,8 @@ npm install -g jshint
 sudo apt-get install -y rlwrap
 
 # Install emacs24
+# Install python properties for apt-add-repository
+sudo apt-get install python-software-properties
 # https://launchpad.net/~cassou/+archive/emacs
 sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
