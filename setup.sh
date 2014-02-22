@@ -5,6 +5,8 @@
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git-core
+# Vagrant precise32 box does not install curl
+sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
@@ -27,6 +29,9 @@ sudo apt-get install python-software-properties
 sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
+
+# Install screen (Vagrant box)
+sudo apt-get install -y screen
 
 # git pull and install dotfiles as well
 cd $HOME
