@@ -13,6 +13,7 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 source $HOME/.nvm/nvm.sh
 nvm install v0.10.26
 nvm use v0.10.26
+nvm alias default 0.10.26
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
