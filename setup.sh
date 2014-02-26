@@ -5,6 +5,9 @@
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git-core
+git config --global user.name "Warren Wong"
+git config --global user.email me@warrenwong.org
+
 # Vagrant precise32 box does not install curl
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
