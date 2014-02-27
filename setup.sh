@@ -12,6 +12,9 @@ git config --global user.email me@warrenwong.org
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
+# Install nginx
+sudo apt-get install -y nginx
+
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
 nvm install v0.10.26
